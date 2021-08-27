@@ -26,7 +26,7 @@ console.log(ownersDogEatTooLittle);
 
 // 4.
 console.log(`${ownersDogEatTooMuch.join(" and ")}'s dogs eat too much!`);
-console.log(`${ownersDogEatTooLittle.join(" and ")}'s dogs eat too much!`);
+console.log(`${ownersDogEatTooLittle.join(" and ")}'s dogs eat too little!`);
 
 // 5.
 console.log(dogs.some((dog) => dog.curFood === dog.recFood));
